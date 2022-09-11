@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": false,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "lib": ["DOM", "ESNext"],
+        "jsx": "react",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "target": "ESNext",
+        "paths": {
+            "@utils": ["./src/utils"]
+        },
+        "rootDir": "src",
+        "baseUrl": "./"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
